@@ -15,6 +15,8 @@ public class Basics1 {
 
 				Thread.sleep(1000);
 
+				//command 
+
 				driver.findElement(By.xpath("//input[@name='username']")).sendKeys("Admin");
 				driver.findElement(By.xpath("//input[@name='password']")).sendKeys("admin123");
 				driver.findElement(By.xpath("//button[@type='submit']")).click();
